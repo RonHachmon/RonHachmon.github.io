@@ -1,0 +1,42 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+.book-list {
+grid-column: 1 ;
+grid-row: 1;
+margin-left: 30px;
+width: 100%;
+
+}
+.choosen-book {
+grid-column: 2;
+grid-row: 1;
+margin-left: 50%;
+width: 100%;
+}
+.manage-button{
+    
+
+}
+.input{
+    border-radius: 3px;
+    transition: border 0.4s ease-out;
+    padding: 10px;
+    font-family: Oxygen, sans-serif;
+    font-size: 12px;
+    color: #3e3e42;
+    margin-right: 5px;
+
+
+}
+
+
+body{
+	background-color: rgb(2, 68, 68);
+	color: white;
+	font-family: 'Kanit', sans-serif,Trebuchet MS;
+}
